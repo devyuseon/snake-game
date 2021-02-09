@@ -63,10 +63,10 @@ int PrintMenuPage()
     int x = 40;
     int y = 18;
 
-    gotoxy(35, 16); printf(" SPACE∑Œ ∏ﬁ¥∫ º±≈√ ! ");
-    gotoxy(38, 18); printf("> 1. ∞‘¿” Ω√¿€"); // 0
-    gotoxy(38, 19); printf("  2. ∑©≈∑ ∫∏±‚"); // 1
-    gotoxy(38, 20); printf("  3. ¡æ∑·     "); // 2
+    gotoxy(35, 16); printf(" SPACEÎ°ú Î©îÎâ¥ ÏÑ†ÌÉù ! ");
+    gotoxy(38, 18); printf("> 1. Í≤åÏûÑ ÏãúÏûë"); // 0
+    gotoxy(38, 19); printf("  2. Îû≠ÌÇπ Î≥¥Í∏∞"); // 1
+    gotoxy(38, 20); printf("  3. Ï¢ÖÎ£å     "); // 2
 
     while (1)
     {   
@@ -111,17 +111,17 @@ void print_title()
 {
     printf("\n");
     textcolor(CYAN1, BLACK);
-    gotoxy(12, 2);  printf("     °·°·°·°·°·  °·      °·  °·°·°·°·°·  °·      °· °·°·°·°·°· \n");
-    gotoxy(12, 3);  printf("     °·          °· °·   °·  °·      °·  °·    °·   °·         \n");
-    gotoxy(12, 4);  printf("     °·°·°·°·°·  °·   °· °·  °·°·°·°·°·  °·°·°·     °·°·°·°·°· \n");
-    gotoxy(12, 5);  printf("             °·  °·      °·  °·      °·  °·    °·   °·         \n");
-    gotoxy(12, 6);  printf("     °·°·°·°·°·  °·      °·  °·      °·  °·      °· °·°·°·°·°· \n\n");
+    gotoxy(12, 2);  printf("     ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†      ‚ñ† ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n");
+    gotoxy(12, 3);  printf("     ‚ñ†          ‚ñ† ‚ñ†   ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†    ‚ñ†   ‚ñ†         \n");
+    gotoxy(12, 4);  printf("     ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†   ‚ñ† ‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†‚ñ†‚ñ†     ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n");
+    gotoxy(12, 5);  printf("             ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†    ‚ñ†   ‚ñ†         \n");
+    gotoxy(12, 6);  printf("     ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ† ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n\n");
     textcolor(CYAN2, BLACK);    
-    gotoxy(12, 8);  printf("           °·°·°·°·°·  °·°·°·°·°·  °·      °·  °·°·°·°·°· \n");
-    gotoxy(12, 9);  printf("           °·          °·      °·  °· °·°· °·  °·         \n");
-    gotoxy(12, 10); printf("           °·  °·°·°·  °·°·°·°·°·  °·  °·  °·  °·°·°·°·°· \n");
-    gotoxy(12, 11); printf("           °·      °·  °·      °·  °·      °·  °·         \n");
-    gotoxy(12, 12); printf("           °·°·°·°·°·  °·      °·  °·      °·  °·°·°·°·°· \n");
+    gotoxy(12, 8);  printf("           ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n");
+    gotoxy(12, 9);  printf("           ‚ñ†          ‚ñ†      ‚ñ†  ‚ñ† ‚ñ†‚ñ† ‚ñ†  ‚ñ†         \n");
+    gotoxy(12, 10); printf("           ‚ñ†  ‚ñ†‚ñ†‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†  ‚ñ†  ‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n");
+    gotoxy(12, 11); printf("           ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†         \n");
+    gotoxy(12, 12); printf("           ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†      ‚ñ†  ‚ñ†‚ñ†‚ñ†‚ñ†‚ñ† \n");
     textcolor(WHITE, BLACK);
 }
 
@@ -132,25 +132,25 @@ void draw_box(int x1, int x2, int y1, int y2)
     for (x = x1; x < x2; x += 2)
     {
         gotoxy(x, y1);
-        printf("¶°");
+        printf("‚îÄ");
         gotoxy(x, y2);
-        printf("¶°");
+        printf("‚îÄ");
     }
     for (y = y1; y <= y2; y++)
     {
         gotoxy(x1, y);
-        printf("¶¢");
+        printf("‚îÇ");
         gotoxy(x2, y);
-        printf("¶¢");
+        printf("‚îÇ");
     }
     gotoxy(x1, y1);
-    printf("¶£");
+    printf("‚îå");
     gotoxy(x2, y1);
-    printf("¶§");
+    printf("‚îê");
     gotoxy(x1, y2);
-    printf("¶¶");
+    printf("‚îî");
     gotoxy(x2, y2);
-    printf("¶•");
+    printf("‚îò");
 
     printf("\n");
 }
@@ -162,8 +162,8 @@ void ShowRank() {
     FILE* file = NULL;
     if (0 == fopen_s(&file,"ranking.txt", "rt"))
     {   
-        printf("\n    <¿Ã∏ß>\t     <¡°ºˆ>  ");
-        printf("\t>> SPACE ¥©∏£∏È ∏ﬁ¥∫»≠∏È¿∏∑Œ ¿Ãµø <<\n\n");
+        printf("\n    <Ïù¥Î¶Ñ>\t     <Ï†êÏàò>  ");
+        printf("\t>> SPACE ÎàÑÎ•¥Î©¥ Î©îÎâ¥ÌôîÎ©¥ÏúºÎ°ú Ïù¥Îèô <<\n\n");
         while (fgets(buffer, MAX_LENGHT, file) != NULL)
         {
             printf("%s", buffer);
@@ -191,7 +191,7 @@ void Map()
         for (j = 0; j < MAPWIDTH; j++)
         {
             if (map[i][j] == 1)
-                printf("°·");
+                printf("‚ñ†");
             else
                 printf("  ");
         }
@@ -240,7 +240,7 @@ void FoodOutput()
 
     gotoxy(food.x, food.y);
     textcolor(BLUE2, BLACK);
-    printf("°⁄");
+    printf("‚òÖ");
     textcolor(WHITE, BLACK);
 
 }
@@ -377,14 +377,14 @@ void Output()
                 if (i == SNAKELENGTH && j == SNAKELENGTH) {
                     gotoxy(body[i][j].x, body[i][j].y);
                     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_INTENSITY);
-                    printf("¢¡");
+                    printf("‚äô");
                     textcolor(WHITE, BLACK);
                 }
                 else
                 {
                     gotoxy(body[i][j].x, body[i][j].y);
                     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_INTENSITY);
-                    printf("°ﬂ");
+                    printf("‚óÜ");
                     textcolor(WHITE, BLACK);
                 }
             }
@@ -407,7 +407,7 @@ void Move()
 {
     int Time = 150;
     Time = Time - (score/20);
-    // ¡°ºˆ∞° ¥√æÓ≥Øºˆ∑œ øÚ¡˜¿” ª°∂Û¡¸
+    // Ï†êÏàòÍ∞Ä ÎäòÏñ¥ÎÇ†ÏàòÎ°ù ÏõÄÏßÅÏûÑ Îπ®ÎùºÏßê
     
     while (1)
     {
@@ -491,7 +491,7 @@ void PrintBlock(int x, int y)
 {   
     gotoxy(x, y);
     textcolor(RED2, BLACK);
-    printf("¢Õ");
+    printf("‚ô®");
     textcolor(WHITE, BLACK);
 }
 
@@ -507,9 +507,9 @@ void Score()
 {   
     score += 100;
     textcolor(YELLOW2, BLACK);
-    gotoxy(58, 18); printf(" ¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶§\n");
-    gotoxy(58, 19); printf("   ¡°ºˆ : %6d ¶¢\n", score);
-    gotoxy(58, 20); printf(" ¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶•\n");
+    gotoxy(58, 18); printf("‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê\n");
+    gotoxy(58, 19); printf("‚îÇ  Ï†êÏàò : %6d ‚îÇ\n", score);
+    gotoxy(58, 20); printf("‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò\n");
     textcolor(WHITE, BLACK);
 
 
@@ -525,19 +525,19 @@ void AfterGameOver()
     textcolor(GREEN2, BLACK);
     gotoxy(35, 10); printf("      GAME OVER !"); textcolor(WHITE, BLACK);
     gotoxy(35, 12); printf("  > your score: %d <", score);
-    gotoxy(31, 14); printf("  ¶£¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶§\n");
-    gotoxy(31, 15); printf("  ¶¢ ¿Ã∏ß :               ¶¢");
-    gotoxy(31, 16); printf("  ¶¶¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶•\n");
-    gotoxy(25, 18); printf("¿Ã∏ß¿‘∑¬ - ENTER - ESC∑Œ ¡§∫∏ ¿˙¿Â »ƒ ¡æ∑·\n");
+    gotoxy(31, 14); printf("  ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê\n");
+    gotoxy(31, 15); printf("  ‚îÇ Ïù¥Î¶Ñ :               ‚îÇ");
+    gotoxy(31, 16); printf("  ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò\n");
+    gotoxy(25, 18); printf("Ïù¥Î¶ÑÏûÖÎ†• - ENTER - ESCÎ°ú Ï†ïÎ≥¥ Ï†ÄÏû• ÌõÑ Ï¢ÖÎ£å\n");
     gotoxy(25, 19); printf("                    or\n");
-    gotoxy(25, 20); printf("     ¿˙¿Â«œ∞Ì ΩÕ¡ˆ æ ¿∏∏È ESC∑Œ ¡æ∑·\n");
+    gotoxy(25, 20); printf("     Ï†ÄÏû•ÌïòÍ≥† Ïã∂ÏßÄ ÏïäÏúºÎ©¥ ESCÎ°ú Ï¢ÖÎ£å\n");
     
-    // «√∑π¿ÃæÓ ¡§∫∏ ¿˙¿Â
+    // ÌîåÎ†àÏù¥Ïñ¥ Ï†ïÎ≥¥ Ï†ÄÏû•
     gotoxy(41, 15); scanf("%s", name); fflush(stdin);
     fp = fopen("ranking.txt", "at+");
     if (fp == NULL)
     {
-        printf("∆ƒ¿œ ø¿«¬ Ω«∆–");
+        printf("ÌååÏùº Ïò§Ìîà Ïã§Ìå®");
         return 1;
     }
     fprintf(fp, "%10s\t\t%d\n", name, score);
@@ -555,7 +555,7 @@ void AfterGameOver()
 
 void GameOver()
 {   
-    // ∫Æ∞˙ ∏∏≥™∏È ∞‘¿” ø¿πˆ
+    // Î≤ΩÍ≥º ÎßåÎÇòÎ©¥ Í≤åÏûÑ Ïò§Î≤Ñ
     if (body[SNAKELENGTH][SNAKELENGTH].x >= (MAPWIDTH*2-2) || body[SNAKELENGTH][SNAKELENGTH].x <= 0)
     {
         AfterGameOver();
@@ -567,7 +567,7 @@ void GameOver()
     }
 
 
-    // ∏”∏ÆøÕ ∏ˆ¿Ã ∏∏≥™∏È ∞‘¿”ø¿πˆ
+    // Î®∏Î¶¨ÏôÄ Î™∏Ïù¥ ÎßåÎÇòÎ©¥ Í≤åÏûÑÏò§Î≤Ñ
     for (i = SNAKELENGTH; i >= 0; i--)
     {
         for (j = SNAKELENGTH-1; j >= 0; j--)
@@ -580,7 +580,7 @@ void GameOver()
         }
     }
 
-    // Block∞˙ ∏∏≥™∏È ∞‘¿” ø¿πˆ
+    // BlockÍ≥º ÎßåÎÇòÎ©¥ Í≤åÏûÑ Ïò§Î≤Ñ
     for (i = 0; i < 5; i++)
     {
         if (body[SNAKELENGTH][SNAKELENGTH].x == block.x[i]
@@ -591,14 +591,14 @@ void GameOver()
 
 void GameExplain()
 {   
-    gotoxy(58, 3);  printf("<  ∞‘¿” ±‘ƒ¢  >");
-    gotoxy(58, 5);  printf("πÊ«‚≈∞∑Œ ¿Ãµø!");
-    gotoxy(58, 7);  printf("∏”∏Æ∞° ∏ˆ¿Ã≥™ ∫Æø° ¥Í∞≈≥™,");
-    gotoxy(58, 9);  printf("¢Õø° ¥Í¿∏∏È ∞‘¿”ø¿πˆ");
-    gotoxy(58, 11); printf("°⁄¿ª ∏‘¿∏∏È ¡°ºˆ +100");
-    gotoxy(58, 13); printf("°⁄¿ª ∏‘¿ªºˆ∑œ ª°∂Û¡¸!");
-    gotoxy(58, 15); printf(">> Q¥©∏£∏È ∞‘¿”¡æ∑·");
-    gotoxy(56, 17); printf("¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°¶°");
+    gotoxy(58, 3);  printf("<  Í≤åÏûÑ Í∑úÏπô  >");
+    gotoxy(58, 5);  printf("Î∞©Ìñ•ÌÇ§Î°ú Ïù¥Îèô!");
+    gotoxy(58, 7);  printf("Î®∏Î¶¨Í∞Ä Î™∏Ïù¥ÎÇò Î≤ΩÏóê ÎãøÍ±∞ÎÇò,");
+    gotoxy(58, 9);  printf("‚ô®Ïóê ÎãøÏúºÎ©¥ Í≤åÏûÑÏò§Î≤Ñ");
+    gotoxy(58, 11); printf("‚òÖÏùÑ Î®πÏúºÎ©¥ Ï†êÏàò +100");
+    gotoxy(58, 13); printf("‚òÖÏùÑ Î®πÏùÑÏàòÎ°ù Îπ®ÎùºÏßê!");
+    gotoxy(58, 15); printf(">> QÎàÑÎ•¥Î©¥ Í≤åÏûÑÏ¢ÖÎ£å");
+    gotoxy(56, 17); printf("‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ");
 }
 
 //--------------------------------------------------------------------------------------------------------------------------
@@ -623,7 +623,7 @@ void cls(int text_color, int bg_color)
 
 }
 
-void removeCursor(void) { // ƒøº≠∏¶ æ»∫∏¿Ã∞‘ «—¥Ÿ
+void removeCursor(void) { // Ïª§ÏÑúÎ•º ÏïàÎ≥¥Ïù¥Í≤å ÌïúÎã§
 
     CONSOLE_CURSOR_INFO curInfo;
     GetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &curInfo);
